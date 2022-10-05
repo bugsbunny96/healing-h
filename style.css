@@ -37,14 +37,25 @@
     color: white;
 }
 /* NavLinkHover -END- */
-.navbar-brand > img {
+.navbar-brand > .brand > img {
     border: 2px dotted orangered;
     border-radius: 50%;
-    padding: 9px;
-    height: 100px;
-    width: 100px;
+    padding: 7px;
+    height: 82px;
+    width: 82px;
     margin-left: 50px;
 }
+.navbar-brand > .brand > strong {
+    color: #f1672d;
+    font-size: small;
+    margin-left: 45px;
+}
+.navbar-brand > .brand > p {
+    color: #808080;
+    font-size: x-small;
+    margin-left: 45px;
+}
+
 
 
 /* social icon */
