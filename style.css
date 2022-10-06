@@ -37,26 +37,29 @@
     color: white;
 }
 /* NavLinkHover -END- */
+.navbar-brand > .brand {
+    margin-left: 40px;
+}
 .navbar-brand > .brand > img {
     border: 2px dotted orangered;
     border-radius: 50%;
     padding: 7px;
     height: 82px;
     width: 82px;
-    margin-left: 50px;
 }
 .navbar-brand > .brand > strong {
     color: #f1672d;
     font-size: small;
-    margin-left: 45px;
 }
 .navbar-brand > .brand > p {
     color: #808080;
     font-size: x-small;
-    margin-left: 45px;
 }
 
-
+.h-about {
+    margin-top: -18%;
+    margin-left: 38%;
+}
 
 /* social icon */
 .fa {
@@ -155,3 +158,51 @@ h1, h2, h3, h4, h5 {
     width: 100%;
 }
 /* drImg -END- */
+
+
+/* --------------------++++++++++++++++++++-------------------- */
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* RESPONSIVE */
+@media (min-width: 320px) and (max-width: 480px) /*Mobile devices*/ {
+    body {
+      background-color: red;
+    }
+    .h-about {
+        margin-top: -25%;
+        margin-left: 38%;
+        font-size: 10px;
+    }
+    .navbar-brand > .brand {
+        margin-left: 9px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) /*iPads, Tablets*/ {
+    body {
+      background-color: greenyellow;
+    }
+    .navbar-brand > .brand {
+        margin-left: 25px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) /*Small screens, laptops*/ {
+    /* body {
+      background-color: skyblue;
+    } */
+}
+@media (min-width: 1025px) and (max-width: 1440px) /*Extra large screens, TV*/ {
+    /* body {
+      background-color: yellow;
+    } */
+}
+@media (min-width: 1441px) /*UHD screen*/ {
+    /* body {
+      background-color: pink;
+    } */
+}
+/* RESPONSIVE */
