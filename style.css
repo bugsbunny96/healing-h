@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5 {
 /* RESPONSIVE */
 @media (min-width: 320px) and (max-width: 480px) /*Mobile devices*/ {
     body {
-      background-color: red;
+      /* background-color: red; */
     }
     .h-about {
         margin-top: -25%;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 481px) and (max-width: 768px) /*iPads, Tablets*/ {
     body {
-      background-color: greenyellow;
+      /* background-color: greenyellow; */
     }
     .navbar-brand > .brand {
         margin-left: 25px;
